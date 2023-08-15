@@ -141,6 +141,10 @@ section{
     border-radius: 30px;
     line-height: 26px;
 }
+.about-me__elements img{
+    width: 90%;
+    max-width: 336px;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -326,7 +330,7 @@ textarea{
 .contact h2{
     color: #e6e6fa;
 }
-button{
+.contact button{
     background: #e6e6fa;
     color: #45322e;
     outline: none;
@@ -339,7 +343,7 @@ button{
     padding: 16px;
     transition: 0.5s;
 }
-button:hover{
+.contact button:hover{
     transform:scale(105%);
 }
 footer{
@@ -367,4 +371,29 @@ footer .container{
     justify-content: center;
     align-items: center;
     gap: 48px;
+}
+.hamburger{
+ width: 40px;
+ height: 20px;
+ position: relative;
+ border: none;
+ background: transparent;
+ display: none;
+}
+.hamburger span{
+    width: 40px;
+    height: 2px;
+    background-color: #45322e;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+.hamburger span:nth-child(1){
+    top: 0;
+}
+.hamburger span:nth-child(2){
+    top: 9px;
+}
+.hamburger span:nth-child(3){
+    bottom: 0;
 }
