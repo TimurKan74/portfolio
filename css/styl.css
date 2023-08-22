@@ -387,6 +387,7 @@ footer .container{
     display: block;
     position: absolute;
     left: 0;
+    transition: 0.5s;
 }
 .hamburger span:nth-child(1){
     top: 0;
@@ -396,4 +397,18 @@ footer .container{
 }
 .hamburger span:nth-child(3){
     bottom: 0;
+}
+.hamburger_active span:nth-child(2){
+    opacity: 0;
+}
+.hamburger_active span:nth-child(1){
+    top: 9px;
+    transform: rotate(45deg);
+}
+.hamburger_active span:nth-child(3){
+    bottom: 9px;
+    transform: rotate(135deg);
+}
+.h1_active{
+    color: #45322e;
 }
