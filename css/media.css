@@ -84,4 +84,10 @@
     .skils__item{
         max-width: 100%;
     }
+    .nav__contacts a{
+        font-size: 32px;
+    }
+    .header__elements{
+        gap: 32px;
+    }
 }
