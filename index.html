@@ -145,14 +145,16 @@
             <h2>Контакты</h2>
             <h3>Оставьте заявку и я свяжусь с вами в течении дня!</h3>
             <hr>
-            <form action="">
+            <form name="order" method="post" target="submit-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdRTCnDsIMIcYEchAnZWb6XiVWOgGAbY7QOE1fdBjMxSCoqVQ/formResponse">
+                <div class="forum__wrapper">Ваша заявка успешно отправлена</div>
+                <iframe name="submit-form"></iframe>
                 <label for="name">Ваше имя</label>
-                <input type="text" placeholder="Введите имя" id="name">
+                <input type="text" placeholder="Введите имя" id="name" name="entry.1515706587">
                 <label for="email">Ваша почта</label>
-                <input type="email" placeholder="Введите почту" id="email">
+                <input type="email" placeholder="Введите почту" id="email" name="entry.1310287854">
                 <label for="comentary">Комментарий</label>
-                <textarea name="" id="comentary" placeholder="Комментарий"></textarea>
-                <button>Отправить</button>
+                <textarea id="comentary" placeholder="Комментарий" name="entry.1715065709"></textarea>
+                <button type="submit">Отправить</button>
             </form>
         </div>
     </section>
