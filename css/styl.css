@@ -215,13 +215,19 @@ html{
 .works__item {
     width: 280px;
     height: 280px;
-    background-image: url(../img/TOP3-BG.png);
+    
     display: inline-block;
     background-size: 140%;
     background-position: center;
     border-radius: 20px;
     transition: 0.8s;
     position: relative;
+}
+.works__item_1{
+    background-image: url(../img/TOP3-BG.png);
+}
+.works__item_2{
+    background-image: url(../img/Yacht.jpg);
 }
 .works__item:hover{
     background-size: 100%;
@@ -255,6 +261,7 @@ html{
     color: #e6e6fa;
     opacity: 0%;
     transition: 0.8s;
+    text-shadow: 0 0 4px black;
 }
 .works__item:hover .works__content{
     opacity: 100%;
